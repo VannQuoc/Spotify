@@ -50,7 +50,7 @@ def get_cookies():
             result = f"MonLeoHayKhok"
             print(slot)
             result2 = f"MonLeoHaycccKhok"
-            if slot == True:
+            if slot == True and inviteToken != null:
               bot_token = '5678937930:AAForYgL5zts5wawsdfmfgP_5-sraeugnp8'  
               bot = telebot.TeleBot(bot_token)
               chat_id = '-1002074013993' 
